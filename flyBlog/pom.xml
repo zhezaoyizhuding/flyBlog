@@ -7,5 +7,9 @@
   <modules>
   	<module>flyBlog-dao</module>
   	<module>flyBlog-model</module>
+  	<module>flyBlog-service</module>
+  	<module>flyBlog-facade</module>
+  	<module>flyBlog-facadeImpl</module>
+  	<module>flyBlog-web</module>
   </modules>
 </project>
