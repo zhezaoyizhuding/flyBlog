@@ -163,6 +163,12 @@
             <version>2.1</version> 
             <scope>provided</scope> 
         </dependency> 
+        <!-- 引入相关项目的包 -->
+        <dependency>
+            <groupId>com.zhengrui</groupId>
+            <artifactId>flyBlog-facade</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 	</dependencies>
   
 </project>

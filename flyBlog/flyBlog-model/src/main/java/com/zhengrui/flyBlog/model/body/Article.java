@@ -1,14 +1,18 @@
 package com.zhengrui.flyBlog.model.body;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Article {
-        String articleId;
+public class Article implements Serializable{
+        
+	private static final long serialVersionUID = 14555555555555L;
+	
+	    String articleId;
         String title;
         String author;
         String content;
         String language;
-        Date date;
+        String date;
 		public String getArticleId() {
 			return articleId;
 		}
@@ -39,10 +43,10 @@ public class Article {
 		public void setLanguage(String language) {
 			this.language = language;
 		}
-		public Date getDate() {
+		public String getDate() {
 			return date;
 		}
-		public void setDate(Date date) {
+		public void setDate(String date) {
 			this.date = date;
 		}
        
