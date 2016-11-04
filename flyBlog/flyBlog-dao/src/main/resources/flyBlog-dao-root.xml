@@ -27,7 +27,7 @@
         class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <!-- 不使用properties来配置 -->
         <property name="driverClassName" value="com.mysql.jdbc.Driver" /> 
-            <property name="url" value="jdbc:mysql://localhost:3306/flyblog" /> 
+            <property name="url" value="jdbc:mysql://localhost:3306/flyblog?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull"  /> 
             <property name="username" value="root" /> 
             <property name="password" value="123" />
        <!-- 使用properties来配置 -->

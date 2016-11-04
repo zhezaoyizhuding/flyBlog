@@ -22,6 +22,6 @@
     <dubbo:protocol name="dubbo" port="20880" />
     <!-- <dubbo:registry address="multicast://127.0.0.1:1234"/> -->
    <!-- 要暴露的服务接口 -->    
-  <bean id="articleHandleServiceImpl" class="com.zhengrui.flyBlog.facadeImpl.serviceImpl.articleHandleServiceImpl"/> 
-  <dubbo:service interface="com.zhengrui.flyBlog.facade.services.IarticleHandleService" ref="articleHandleServiceImpl" />
+  <bean id="articleHandleFacadeImpl" class="com.zhengrui.flyBlog.facadeImpl.Impl.articleHandleFacadeImpl"/> 
+  <dubbo:service interface="com.zhengrui.flyBlog.facade.IarticleHandleFacade" ref="articleHandleFacadeImpl" />
 </beans>

@@ -1,15 +1,16 @@
-package com.zhengrui.flyBlog.facadeImpl.serviceImpl;
+package java.com.zhengrui.flyBlog.service.serviceImpl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import com.zhengrui.flyBlog.dao.articleHandle.IArticleHandle;
-import com.zhengrui.flyBlog.facade.services.IarticleHandleService;
 import com.zhengrui.flyBlog.model.body.Article;
+import com.zhengrui.flyBlog.service.services.IarticleHandleService;
 
-@Service
+@Component
 public class articleHandleServiceImpl implements IarticleHandleService{
 
 	@Autowired
