@@ -10,7 +10,7 @@ public interface IarticleHandleFacade {
 	//返回单类文章列表
 	public List<Article> selectTitleByLang(String lang);
 	//根据文章标题返回文章内容
-	public Article selectContentByTitle(String title);
+	public String selectContentByTitle(String title);
 	//返回某品类的第一篇文章
 	public Article getFirstTitleBylang(String lang);
 	
