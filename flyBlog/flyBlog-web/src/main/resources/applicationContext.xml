@@ -11,5 +11,6 @@
            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
            
            
-           <import resource="classpath:flyBlog-facadeimpl-root.xml"/>
+     <import resource="classpath:flyBlog-dao-root.xml"/>
+     <import resource="classpath:flyBlog-facadeimpl-root.xml"/>
 </beans>

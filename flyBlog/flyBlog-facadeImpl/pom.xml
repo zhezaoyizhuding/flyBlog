@@ -10,7 +10,7 @@
   <dependencies>
   	  <dependency>
   	  	  <groupId>com.zhengrui</groupId>
-  	  	  <artifactId>flyBlog-service</artifactId>
+  	  	  <artifactId>flyBlog-dao</artifactId>
   	  	  <version>0.0.1-SNAPSHOT</version>
   	  </dependency>
   	  <dependency>

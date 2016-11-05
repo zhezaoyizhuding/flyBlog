@@ -10,7 +10,7 @@ import com.zhengrui.flyBlog.dao.articleHandle.IArticleHandle;
 import com.zhengrui.flyBlog.model.body.Article;
 import com.zhengrui.flyBlog.service.services.IarticleHandleService;
 
-@Component
+@Service
 public class articleHandleServiceImpl implements IarticleHandleService{
 
 	@Autowired
